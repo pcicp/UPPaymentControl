@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name         = 'UPPaymentControl'
   spec.version      = '3.3.8'
-  spec.license      = '中国银联'
+  spec.license      = '涓浗閾惰仈'
   spec.homepage     = 'https://open.unionpay.com'
   spec.authors      = { 'klaus' => 'haibara@gotobus.com' }
   spec.summary      = 'UnionPay-PaymentControl'
