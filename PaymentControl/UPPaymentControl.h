@@ -4,7 +4,8 @@
 //
 //  Created by qcao on 15/10/20.
 //  Copyright © 2015年 China Unionpay Co.,Ltd. All rights reserved.
-//  v3.3.14 bulid1
+//  v3.4.8 build1(pure)
+//
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
@@ -41,14 +42,11 @@ typedef void (^UPPaymentResultBlock)(NSString* code, NSDictionary* data);
 
 
 
-/**
- *  APP是否已安装检测接口，通过该接口得知用户是否安装银联支付的APP。
- *
- *  @return 返回是否已经安装了银联支付APP
- */
 
-
-- (BOOL)isPaymentAppInstalled;
+/// APP是否已安装检测接口，通过该接口得知用户是否安装银联支付的APP。
+/// @param mode 支付环境
+/// @param merchantID  商户编号
+- (BOOL)isPaymentAppInstalled:(NSString*)mode withMerchantInfo:(NSString *)merchantInfo;
 
 /**
  *  处理钱包或者独立快捷app支付跳回商户app携带的支付结果Url
