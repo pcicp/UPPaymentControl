@@ -4,7 +4,7 @@
 //
 //  Created by qcao on 15/10/20.
 //  Copyright © 2015年 China Unionpay Co.,Ltd. All rights reserved.
-//  v3.4.11 build0(mini)
+//  v3.4.12 build2(mini)
 //
 
 #import <Foundation/Foundation.h>
@@ -50,11 +50,11 @@ typedef void (^UPPaymentDirectAppFail)(NSString* code,NSString* msg);
 
 
 /**
- * 通过回调异步返回直通可用app列表
+ * 接口非线程安全，通过主线程回调异步返回直通可用app列表
  * @param mode 支付环境
  * @param merchantInfo  商户标识
- * @param succBlock  成功回调，回调参数directApps，表示直通可用app列表，如无可用App则directApps为空数组@[]
- * @param succBlock  失败回调，回调参数一code，表示错误码（参数错误 : 01，网络错误 : 02，其它 : 03）
+ * @param succBlock  主线程成功回调，回调参数directApps，表示直通可用app列表，如无可用App则directApps为空数组@[]
+ * @param succBlock  主线程成功回调，回调参数一code，表示错误码（参数错误 : 01，网络错误 : 02，其它 : 03）
  *                          回调参数二msg，表示错误信息（参数错误 : parameter error，网络错误 : network error，其它 : unknown error）
  */
 - (void)getDirectApps:(NSString*)mode
