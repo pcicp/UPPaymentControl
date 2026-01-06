@@ -1,0 +1,6 @@
+framework module UPPaymentControlMini {
+  umbrella header "UPPaymentControlMini.h"
+  export *
+
+  module * { export * }
+}

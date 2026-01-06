@@ -4,7 +4,7 @@
 //
 //  Created by qcao on 15/10/20.
 //  Copyright © 2015年 China Unionpay Co.,Ltd. All rights reserved.
-//  v3.6.0 build0(mini)
+//  v3.6.3 build1(mini)
 //
 
 #import <Foundation/Foundation.h>

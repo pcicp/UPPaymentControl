@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'UPPaymentControl'
-  spec.version      = '3.6.0'
+  spec.version      = '3.6.3'
   spec.license      = '中国银联'
   spec.homepage     = 'https://open.unionpay.com'
   spec.authors      = '中国银联'

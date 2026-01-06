@@ -4,17 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/UPPaymenControlMini.h</key>
+		<key>Headers/UPPaymentControl.h</key>
+		<data>
+		lUIYX/vWkeiAf8yN5e76vTBXzm4=
+		</data>
+		<key>Headers/UPPaymentControlMini.h</key>
 		<data>
 		vet6Fb0UERMco/wGncRFVXS8TXQ=
 		</data>
-		<key>Headers/UPPaymentControl.h</key>
-		<data>
-		eeB/CGFLIMeC0ToqnUda4dB64aM=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		x+ExRC2BCWpV7j1qwAadk3vdsPc=
+		DJf/0h9lOKhmpP6EWhqv2Gr9Tyk=
+		</data>
+		<key>Modules/module.modulemap</key>
+		<data>
+		Sh7SIRMAu2cPHe58dK3I34oDN9w=
 		</data>
 		<key>PaymentControlPrivacy.bundle/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -23,7 +27,18 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/UPPaymenControlMini.h</key>
+		<key>Headers/UPPaymentControl.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lUIYX/vWkeiAf8yN5e76vTBXzm4=
+			</data>
+			<key>hash2</key>
+			<data>
+			mLUdwyl5s6nFTrRvWFLorErec/OiYl+oFc3rvt+5VfQ=
+			</data>
+		</dict>
+		<key>Headers/UPPaymentControlMini.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -34,15 +49,15 @@
 			MXfiWTa0rtbqZoTW8jF9ZBdd4RAwXaZGPEnvx8QFDVc=
 			</data>
 		</dict>
-		<key>Headers/UPPaymentControl.h</key>
+		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eeB/CGFLIMeC0ToqnUda4dB64aM=
+			Sh7SIRMAu2cPHe58dK3I34oDN9w=
 			</data>
 			<key>hash2</key>
 			<data>
-			CrY0/LoBWcO9toodI/iOf4VHzEzVNDjLw6Mmq1LfIZU=
+			qjfQ26DcOeeqGITBWz4flSg5RUaRECAcHha+Rc0o26w=
 			</data>
 		</dict>
 		<key>PaymentControlPrivacy.bundle/PrivacyInfo.xcprivacy</key>
